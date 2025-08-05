@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Лучшее событие года</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/chose.css') }}">
+</head>
+<body>
+    <h1 id="h1">Мои 20 лет</h1>
+    <div id="main">
+        <p id="main_title">Какое из событий запомнилось сильнее?</p>
+        <div id="chose_block">
+            <div id="or">
+                ИЛИ
+            </div>
+            <div id="container">
+                <div id="main_container"></div>
+            </div>
+
+        </div>
+        <div id="stage"></div>
+    </div>
+    <script src="{{ url_for('static', filename='js/chose.js') }}"></script>
+</body>
+</html>
