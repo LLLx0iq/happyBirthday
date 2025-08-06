@@ -46,7 +46,7 @@ function set_blocks() {
     var len = numbers.length;
     if (len == 2){
         stage.innerHTML = "ФИНАЛ";
-        stage.style.width = "auto"
+        //stage.style.width = "auto"
     } else if (numbers.length % trigger == 0){
         stage.innerHTML = `1/${len/2}`;
         trigger /= 2;
@@ -154,3 +154,4 @@ function addBlock(){
 
 set_blocks();
 
+//    border: 3px solid #2c3e50;
